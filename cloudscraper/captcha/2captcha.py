@@ -27,7 +27,8 @@ class captchaSolver(Captcha):
 
     def __init__(self):
         super(captchaSolver, self).__init__('2captcha')
-        self.host = 'https://2captcha.com'
+#         self.host = 'https://2captcha.com'
+        self.host = 'https://rucaptcha.com'
         self.session = requests.Session()
 
     # ------------------------------------------------------------------------------- #
